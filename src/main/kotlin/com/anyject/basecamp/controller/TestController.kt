@@ -14,9 +14,9 @@ class TestController {
     @Resource(name = "TestService")
     lateinit var testService : TestService
 
-    @GetMapping("/test")
+    @GetMapping("/")
     fun a() : String {
-
+        print("TestController")
         return testService.greet()
     }
 }
