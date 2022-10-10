@@ -15,8 +15,8 @@ class TestController {
     lateinit var testService : TestService
 
     @GetMapping("/")
-    fun a() : String {
-        print("TestController")
+    fun test() : String {
+        println("TestController > test()")
         return testService.greet()
     }
 }
