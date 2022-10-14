@@ -1,6 +1,6 @@
 package com.anyject.basecamp.controller
 
-import com.anyject.basecamp.service.TestService
+import com.anyject.basecamp.service.implement.TestService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
